@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperMethods.Web", "HelperMethods.Web\HelperMethods.Web.csproj", "{CF033D1C-5E00-4F44-B382-9A080DDADF09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF033D1C-5E00-4F44-B382-9A080DDADF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF033D1C-5E00-4F44-B382-9A080DDADF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF033D1C-5E00-4F44-B382-9A080DDADF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF033D1C-5E00-4F44-B382-9A080DDADF09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67703C2B-2A5F-481B-A059-C58513D3B434}
+	EndGlobalSection
+EndGlobal
