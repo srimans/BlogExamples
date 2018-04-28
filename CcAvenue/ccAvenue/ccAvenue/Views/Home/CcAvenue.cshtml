@@ -1,0 +1,17 @@
+﻿@using ccAvenue.ViewModel
+@model CcAvenueViewModel
+<form method="post" id="paymentForm" action="@Model.CheckoutUrl">
+    <input type="hidden" id="encRequest" name="encRequest" value="@Model.EncryptionRequest" />
+    <input type="hidden" id="access_code" name="access_code" value="@Model.AccessCode" />
+</form>
+<div class="row" style="text-align:center">
+    <div class="small-12 large-12">
+        <h2 class="text-center">Processing...</h2>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+
+ $("#paymentForm").submit();
+
+</script>
