@@ -1,0 +1,15 @@
+* text eol=crlf
+*.zip binary
+*.png binary
+*.dat binary
+*.jpg binary
+*.gif binary
+*.exe binary
+*.dll binary
+*.otf binary
+*.eot binary
+*.svg binary
+*.ttf binary
+*.woff binary
+*.swf binary
+
