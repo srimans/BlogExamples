@@ -7,9 +7,9 @@ namespace LINQ
     {
         protected Car[] Cars { get; }
 
-        public LinqMethod(Car[] v)
+        public LinqMethod(Car[] cars)
         {
-            Cars = v;
+            Cars = cars;
         }
 
         public bool Execute()
